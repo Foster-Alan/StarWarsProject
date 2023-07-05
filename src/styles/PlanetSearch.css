@@ -1,3 +1,7 @@
+.home {
+    display: flex;
+}
+
 .name-filter {
     display: flex;
     justify-content: center;
@@ -5,7 +9,7 @@
 
 .name-filter input {
     text-align: center;
-    width: 525px;
+    width: 32rem;
 }
 
 .filters {
@@ -27,7 +31,7 @@
     display: flex;
     /* border: solid green 1px; */
     color: rgb(249 210 0);
-    margin: 0 500px;
+    /* margin: 0 500px; */
     justify-content: space-between;
     /* gap: 5px; */
 }
@@ -52,4 +56,14 @@
 .filters button {
     background-color: rgb(249 210 0);
     border: solid black 1px;
+}
+
+#div-teste {
+    border: 1px red solid;
+    display: flex;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+    justify-self: center;
+
 }
