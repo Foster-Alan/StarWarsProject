@@ -59,7 +59,7 @@
 }
 
 #div-teste {
-    border: 1px red solid;
+    /* border: 1px red solid; */
     display: flex;
     align-items: center;
     align-self: center;
